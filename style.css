@@ -1,0 +1,74 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Georgia", serif;
+}
+
+/* Background Image for Krishna and Arjuna */
+body {
+  background-image: url("images.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #f5f5dc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Main Container */
+.container {
+  background: rgba(255, 255, 255, 0.85); /* Light transparent overlay */
+  border-radius: 12px;
+  padding: 40px 20px;
+  max-width: 600px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Heading */
+h1 {
+  font-size: 2em;
+  color: #4b2e83; /* Rich, regal purple */
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Sloka Display Area */
+.sloka {
+  font-size: 1.2em;
+  color: #333;
+  padding: 15px;
+  margin: 20px 0;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Button Styling */
+.button {
+  font-size: 1em;
+  padding: 10px 20px;
+  border: none;
+  background-color: #ffdf64; /* Golden color */
+  color: #4b2e83;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.button:hover {
+  background-color: #ffcb42; /* Slightly deeper gold on hover */
+}
+
+/* Attribution for Background */
+.attribution {
+  font-size: 0.8em;
+  color: #333;
+  text-align: center;
+  margin-top: 10px;
+}
